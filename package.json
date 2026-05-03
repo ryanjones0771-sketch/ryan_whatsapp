@@ -1,0 +1,21 @@
+{
+  "name": "ryan-whatsapp-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ryan WhatsApp Group Management Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.21.0",
+    "node-cache": "^5.1.2",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
